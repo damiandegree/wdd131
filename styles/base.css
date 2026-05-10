@@ -50,7 +50,7 @@ header nav a {
 }
 header nav a:hover{
     color: orangered;
-    transition: 0.3;}
+    transition: 0.3s;}
 
 header nav a::after {
     content: '';
@@ -60,7 +60,7 @@ header nav a::after {
     bottom: 0;
     left: 0;
     background-color: orangered;
-    transition: width 0.3s;
+    transition: 0.3s;
 }
 
 header nav a:hover::after {
@@ -162,7 +162,7 @@ main h1{
 }
 .card2 a:hover{
     color: orangered;
-    transition: 0.3;
+    transition: 0.3s;
 }
 .card2 a::after{
     content: '';
@@ -172,7 +172,7 @@ main h1{
     bottom: 0;
     left: 0;
     background-color: orangered;
-    transition: width 0.3s;
+    transition: 0.3s;
 }
 .card2 a:hover::after{
     width: 100%;
@@ -190,4 +190,7 @@ footer{
     align-self: center;
     margin:0 auto;
     padding: 10px
+}
+#lastModified{
+    margin: 10px auto;
 }
