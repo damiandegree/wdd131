@@ -1,11 +1,9 @@
-const { createElement } = require("react");
-
 const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
-const list = document.querySelector('______');
+const list = document.querySelector('#list');
 
-button.addEventListener("click",() => function() {
-    if (input.value != "") {
+button.addEventListener("click", function(){
+    if (input.value.trim() !== "") {
       const li = createElement("li");
       li.textContent = input.value;
 
