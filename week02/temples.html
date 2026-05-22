@@ -8,15 +8,13 @@
     <title>WDD 131 - Temples Activity</title>
     <link rel="stylesheet" href="styles/temples.css">
     <link rel="stylesheet" href="styles/temples-large.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div>Temple Album</div>
-        <nav>
-            <ul>
+        <p>Temple Album</p>
+        <button id="menu-options" aria-label="Options"></button>
+        <nav >
+            <ul class="nav-bar">
                 <li><a href="">Home</a></li>
                 <li><a href="">Old</a></li>
                 <li><a href="">New</a></li>
@@ -34,13 +32,14 @@
         <figure><img src="images/santiago_temple.jpg" alt="Santiago de Chile Chile Temple"><figcaption>Santiago de Chile - Chile</figcaption></figure>
         <figure><img src="images/ephraim_temple.jpg" alt="Ephraim United States Temple"><figcaption>Ephraim - United States</figcaption></figure>
         <figure><img src="images/montevideo_temple.jpg" alt="Montevideo Uruguay Temple"><figcaption>Montevideo - Uruguay</figcaption></figure>
-        <figure><img src="images/rome_temple.jpg" alt="Rome Italy Temple"><figcaption></figcaption>Rome - Italy</figure>
+        <figure><img src="images/rome_temple.jpg" alt="Rome Italy Temple"><figcaption>Rome - Italy</figcaption></figure>
         <figure><img src="images/salt_lake_temple.jpg" alt="Salt Lake United States Temple"><figcaption>Salt Lake - United States</figcaption></figure>
+
     </main>
     <footer>
-        <p>©<span id="curent-year">2026</span> | Matias Martinez | Argentina</p>
-        <div id="local-time"></div>
+        <p>©<span id="current-year">2026</span> | Matias Martinez | Argentina</p>
+        <p id="lastModified"></p>
     </footer>
-    <script src="scripts/temples.js"></script>
+    <script src="scripts/temples.js" defer></script>
 </body>
 </html>
