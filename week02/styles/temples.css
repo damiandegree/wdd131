@@ -38,6 +38,9 @@ header p{
 #menu-options::before{
     content: "☰";
 }
+nav{
+    display: none;
+}
 .nav-bar{
     width: auto;
     height: auto;
